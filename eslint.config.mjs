@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local browser tooling, also listed in .gitignore.
+    "rod/**",
   ]),
 ]);
 
