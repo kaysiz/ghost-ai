@@ -35,10 +35,11 @@ shadcn/ui on Tailwind, style `base-nova`, primitives from Base UI. Components li
 
 ## Layout Patterns
 
-- Editor: a full-height column in `app/(editor)/`. A fixed-height navbar sits on top. The canvas fills the remaining height.
-- Navbar: left, center, and right sections in a three-column grid. Dark background (`--background`) and a subtle bottom border (`--border`). The right section stays empty until a later spec fills it.
-- Project sidebar: fixed overlay from the left, above the canvas. Opening it does not push page content. It slides in with a transform. Surface uses the sidebar tokens (`--sidebar`, `--sidebar-foreground`, `--sidebar-border`).
-- Dialogs: the shadcn Dialog primitive. Style with the color tokens in `app/globals.css`. A dialog supports a title, a description, and footer actions. Do not add a product dialog until a spec asks for one.
+- [Pattern — e.g. Editor: full-viewport split with
+  left sidebar, center canvas, right sidebar]
+- [Pattern — e.g. Sidebars: fixed width with border separator]
+- [Pattern — e.g. Modals: centered overlay with backdrop blur]
+- [Pattern — e.g. Navbar: top bar with bottom border]
 
 ## Icons
 
