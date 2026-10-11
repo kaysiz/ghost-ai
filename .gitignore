@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# local browser tooling
+/log/
+/rod/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
